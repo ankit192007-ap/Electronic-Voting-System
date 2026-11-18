@@ -1,18 +1,40 @@
-C Application
-======================
-This is a simple C application. This application serves as a basic template for a console application using C.
+Electronic Voting System with Audit Trail
 
-What does this application do?
--------------------------------
-This application prints "Hello, World!" to the console.
+Project 35 – C Programming
 
-# How to run?
-You can run the application in one of the following ways:
+Description
 
-1. Open a terminal by going to 'View' -> 'Terminal'. Then run:
-    > `gcc main.c`
-    > `./a.out`
+An Electronic Voting System developed using C programming. It allows voters to register, candidates to register, authenticated voting, vote counting and audit verification.
 
-This will start the application.
+Features
 
-Happy coding! 🙂
+- Voter Registration
+- Candidate Registration
+- PIN Authentication
+- One Vote Per Voter
+- Anonymous Ballot ID
+- Vote Counting
+- Timestamped Transaction Logs
+- Checksum Verification
+- Audit Trail
+
+Technologies Used
+
+- C Programming
+- Structures
+- Arrays
+- Functions
+- Pointers
+- Dynamic Memory Allocation
+- String Handling
+
+How to Run
+
+gcc main.c -o voting
+./voting
+
+Project Purpose
+
+This project demonstrates the practical application of C programming concepts through a small-scale electronic voting system.
+
+Note: This is an educational prototype and is not intended for real elections.
